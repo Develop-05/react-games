@@ -1,0 +1,10 @@
+.game-buy__price {
+    margin-right: 5px;
+}
+
+@media(max-width: 376px) {
+    .game-buy__price {
+        font-size: 12px;
+    }
+}
+

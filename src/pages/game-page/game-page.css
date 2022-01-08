@@ -1,0 +1,118 @@
+.game-page__content {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 1230px) {
+    .game-page__content {
+        display: block;
+        margin-left:10%;
+    }    
+}
+
+.game-page__left {
+    width: 70%;
+}
+
+@media(max-width: 1440px) {
+    .game-page__left {
+        width: 48%;
+    } 
+}
+
+@media(max-width: 1230px) {
+    .game-page__left {
+        width: 100%;
+        margin-bottom: 30px;
+    } 
+}
+
+@media(max-width: 768px) {
+    .game-page__title {
+        font-size: 30px;
+    } 
+}
+
+@media(max-width: 415px) {
+    .game-page__title {
+        font-size: 22px;
+    } 
+}
+
+@media(max-width: 376px) {
+    .game-page__title {
+        font-size: 20px;
+    } 
+}
+
+@media(max-width: 320px) {
+    .game-page__title {
+        font-size: 18px;
+    } 
+}
+
+@media(max-width: 280px) {
+    .game-page__title {
+        font-size: 16px;
+    } 
+}
+
+.game-page__right {
+    width: 30%;
+}
+
+@media(max-width: 1230px) {
+    .game-page__right {
+        width: 90%;
+        height: 30%;
+    } 
+}
+
+@media(max-width: 415px) {
+    .game-page__right {
+        height: 100px;
+    } 
+}
+
+.game-img {
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+.game-page__buy-game {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.btn-2{
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 245px;
+}
+
+@media(max-width:415px) {
+    .btn-2 {
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .game-page__buy-game {
+        margin-bottom: 10px;
+    }
+
+    .text-page {
+        font-size: 12px;
+    }
+
+    .cl-prop{
+        margin-bottom: 10px;
+    }
+}
