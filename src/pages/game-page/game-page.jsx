@@ -1,4 +1,4 @@
-import React from 'react';
+import {useState} from 'react';
 import { useSelector } from 'react-redux';
 import {GameBuy} from '../../components/game-buy/game-buy'
 import {GameGenre} from '../../components/game-genre/game-genre'
@@ -6,8 +6,9 @@ import {GameCover2} from '../../components/game-cover/game-cover2'
 
 import './game-page.css';
 
-export const GamePage = () => {
-  const game = useSelector(state => state.games.currentGame);
+export const GamePage = (props) => {
+
+  const game = useSelector(state =>  (state.games.currentGame));
 
   if(!game) return null
 
