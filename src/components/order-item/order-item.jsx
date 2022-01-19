@@ -25,7 +25,7 @@ export const OrderItem = ({game}) => {
             <span>{game.price} грн.</span>
             <AiOutlineCloseCircle 
               size="25"
-              className="cart-item__delete-icon"
+              className="cart-item__delete-icon delete-icon-mod2"
               onClick={handleClick}
             />
         </div>

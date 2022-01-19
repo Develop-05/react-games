@@ -12,7 +12,7 @@ export const GameBuy = ({ game }) => {
   const handleClick = (e) => {
     e.stopPropagation();
     if (isItemInCart) {
-      dispatch(localStorage.getItem(deleteItemFromCart(game.id)));
+      dispatch(deleteItemFromCart(game.id));
     } else {
       dispatch(setItemInCart(game));
     }
@@ -20,7 +20,7 @@ export const GameBuy = ({ game }) => {
 
   return (
     <div className="game-buy">
-      <span className="game-buy__price">{game.price} грн.</span>
+      <span className="game-buy__price">{game.price} руб.</span>
       <Button
         type={isItemInCart ? "secondary" : "primary" }
         onClick={handleClick}
