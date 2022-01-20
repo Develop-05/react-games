@@ -1,9 +1,15 @@
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background-color: rgb(25, 26, 28);
+    /* background-color: #fff; */
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+
 }
 
 .wrapper {
