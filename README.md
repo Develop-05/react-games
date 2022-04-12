@@ -1,4 +1,4 @@
-ссылка на проект --> https://games-s8.surge.sh/
+ссылка на проект --> https://gamesS8.surge.sh
 
 
 # Getting Started with Create React App
