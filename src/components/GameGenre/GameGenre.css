@@ -1,0 +1,36 @@
+.game-genre {
+    background-color: rgb(45, 45, 45);
+    padding: 2px 5px;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.game-genre:not(:last-child) {
+    margin-right: 7px;
+}
+
+@media(max-width: 376px) {
+    .game-genre:not(:last-child) {
+        margin-right: 3px;
+    }
+    .game-genre {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 321px) {
+    .game-genre {
+        margin-right: 3px;
+        padding: 1px 3px;
+        border-radius: 5px;
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+@media(max-width: 281px) {
+    .game-genre {
+        font-size: 8px;
+    }
+}

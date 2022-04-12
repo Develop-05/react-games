@@ -1,8 +1,8 @@
 import {BrowserRouter as Router, Routes, Route,} from "react-router-dom";
-import { Header } from "./components/header/header";
-import { HomePage } from "./pages/home-page/home-page";
-import { GamePage } from "./pages/game-page/game-page";
-import { OrderPage } from "./pages/order-page/order-page";
+import { Header } from "./components/Header/Header";
+import { HomePage } from "./pages/HomePage/HomePage";
+import { GamePage } from "./pages/GamePage/GamePage";
+import { OrderPage } from "./pages/OrderPage/OrderPage";
 import { Provider } from "react-redux";
 import { store } from "./redux/index";
 
