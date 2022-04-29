@@ -1,4 +1,4 @@
-export const calcTotalPrice = (items) => items.reduce((acc, item) => (acc += item.price), 0);
+export const calcTotalPrice = (items) => items.reduce((acc, item) => (acc += item.price), 0).toFixed(2);
 
 export const enumerate = (num, dec) => {
     if (num > 100) num = num % 100;

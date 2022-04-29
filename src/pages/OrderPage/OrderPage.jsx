@@ -22,9 +22,9 @@ export const OrderPage = () => {
               <div className="order-page__total-price">
                   <span className='color-text'>
                     { items.length > 1 ?
-                      `${items.length} товаров на сумму ${ calcTotalPrice(items) } руб.`
+                      `${items.length} товаров на сумму ${ calcTotalPrice(items) } $.`
                       :
-                      `${items.length} товар на сумму ${ calcTotalPrice(items) } руб.`
+                      `${items.length} товар на сумму ${ calcTotalPrice(items) } $.`
                     }
                   </span>
               </div>
