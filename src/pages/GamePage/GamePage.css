@@ -68,6 +68,27 @@
     } 
 }
 
+@media(max-width:415px) {
+    .btn-2 {
+        display: block;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .game-page__buy-game {
+        margin-bottom: 10px;
+    }
+
+    .text-page {
+        font-size: 12px;
+    }
+
+    .cl-prop{
+        margin-bottom: 10px;
+    }
+}
+
 @media(max-width: 415px) {
     .game-page__right {
         height: 100px;
@@ -96,23 +117,3 @@
     margin-left: 245px;
 }
 
-@media(max-width:415px) {
-    .btn-2 {
-        display: block;
-        margin-top: 20px;
-        margin-left: 0px;
-        margin-bottom: 10px;
-    }
-
-    .game-page__buy-game {
-        margin-bottom: 10px;
-    }
-
-    .text-page {
-        font-size: 12px;
-    }
-
-    .cl-prop{
-        margin-bottom: 10px;
-    }
-}

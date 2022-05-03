@@ -5,11 +5,7 @@ import { CartItem } from "../CartItem/CartItem";
 import { calcTotalPrice } from "../utils";
 
 import "./CartMenu.css";
-
 export const CartMenu = ({ onClick }) => {
-
-  
-  
   const items = useSelector((state) => state.cart.itemsInCart);
   return (
     <div className="cart-menu">
@@ -30,7 +26,7 @@ export const CartMenu = ({ onClick }) => {
         <div className="cart-menu__arrange">
           <div className="cart-menu__total-price">
             <span>Итого:</span>
-            <span>{calcTotalPrice(items.toFixed(2))} $</span>
+            <span>{calcTotalPrice(items)} $</span>
           </div>
           <Button type="primary" size="m" onClick={onClick}>
             Оформить заказ
@@ -40,3 +36,4 @@ export const CartMenu = ({ onClick }) => {
     </div>
   );
 };
+
