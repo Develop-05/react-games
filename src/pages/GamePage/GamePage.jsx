@@ -29,7 +29,7 @@ export const GamePage = (props) => {
         <div className="game-page__right">
           <GameCover2 image={game.image} />
           <p className='text-page'>{game.description}</p>
-          <p className="secondary-text">Популярные метки для этого продукта:</p>
+          <p className="secondary-text">Popular tags for this product:</p>
           {game.genres.map((genre) => (
             <GameGenre genre={genre} key={genre} />
           ))}

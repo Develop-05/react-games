@@ -10,7 +10,7 @@ export const OrderPage = () => {
     const items = useSelector(state => state.cart.itemsInCart)
 
     if(items.length < 1) {
-        return <h1>ваша корзина пуста</h1>
+        return <h1>You don't have any games in your cart :(</h1>
     }
 
     return (
@@ -22,9 +22,9 @@ export const OrderPage = () => {
               <div className="order-page__total-price">
                   <span className='color-text'>
                     { items.length > 1 ?
-                      `${items.length} товаров на сумму ${ calcTotalPrice(items) } $.`
+                      `${items.length} cost of games ${ calcTotalPrice(items) } $`
                       :
-                      `${items.length} товар на сумму ${ calcTotalPrice(items) } $.`
+                      `${items.length} cost of game ${ calcTotalPrice(items) } $`
                     }
                   </span>
               </div>

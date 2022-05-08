@@ -25,7 +25,7 @@ export const GameBuy = ({ game }) => {
         type={isItemInCart ? "secondary" : "primary" }
         onClick={handleClick}
       >
-        {isItemInCart ? "Убрать из корзины" : "В Корзину"}
+        {isItemInCart ? "Remove from cart" : "Add to cart"}
       </Button>
     </div>
   );

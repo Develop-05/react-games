@@ -22,7 +22,7 @@ export const HomePage = () => {
       <div className="search__form">
         <input 
         type="text"
-        placeholder="искать игру"
+        placeholder="look for a game"
         className="search__input"
         onChange={(event) => setValue(event.target.value)}
         />
