@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#ссылка на проект --> https://gamesS8.surge.sh
-=======
 ссылка на проект --> https://gamess.surge.sh/
 
 
